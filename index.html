@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTool</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content-container">
+        <aside class="fixed">
+            <div class="profile-content">
+                <div class="container">
+                    <div class="profile-title">
+                        <div class="profile-title-name">
+                            <img src="images/avatar.jpeg" alt="" class="profile-avatar">
+                            <h5>Vled255</h5>
+                        </div>
+                        <div class="ico-container">
+                            <svg class="ui-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 14C9.41668 14 8.83335 13.775 8.39168 13.3334L2.95835 7.90003C2.71668 7.65837 2.71668 7.25837 2.95835 7.0167C3.20002 6.77503 3.60002 6.77503 3.84168 7.0167L9.27502 12.45C9.67502 12.85 10.325 12.85 10.725 12.45L16.1583 7.0167C16.4 6.77503 16.8 6.77503 17.0417 7.0167C17.2833 7.25837 17.2833 7.65837 17.0417 7.90003L11.6084 13.3334C11.1667 13.775 10.5833 14 10 14Z" fill="#685F74"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="steam-content">
+                <div class="container">
+                    <h4>Steam</h4>
+                    <div class="steam-login">
+                        <div class="steam-login-name">
+                            <p id="steam-my-name">255.vled</p>
+                            <div class="ico-container">
+                                <svg class="ui-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.40669 17.5782C3.89836 17.5782 3.42336 17.4032 3.08169 17.0782C2.64836 16.6698 2.44003 16.0532 2.51503 15.3865L2.82336 12.6865C2.88169 12.1782 3.19003 11.5032 3.54836 11.1365L10.39 3.89482C12.0984 2.08648 13.8817 2.03648 15.69 3.74482C17.4984 5.45315 17.5484 7.23648 15.84 9.04482L8.99836 16.2865C8.64836 16.6615 7.99836 17.0115 7.49003 17.0948L4.80669 17.5532C4.66503 17.5615 4.54003 17.5782 4.40669 17.5782ZM13.065 3.73648C12.4234 3.73648 11.865 4.13648 11.2984 4.73648L4.45669 11.9865C4.29003 12.1615 4.09836 12.5782 4.06503 12.8198L3.75669 15.5198C3.72336 15.7948 3.79003 16.0198 3.94003 16.1615C4.09003 16.3032 4.31503 16.3532 4.59003 16.3115L7.27336 15.8532C7.51503 15.8115 7.91503 15.5948 8.08169 15.4198L14.9234 8.17815C15.9567 7.07815 16.3317 6.06148 14.8234 4.64482C14.1567 4.00315 13.5817 3.73648 13.065 3.73648Z" fill="#685F74"/>
+                                    <path d="M14.24 10.4366C14.2233 10.4366 14.1983 10.4366 14.1817 10.4366C11.5817 10.1782 9.48999 8.20323 9.09 5.61989C9.04 5.27823 9.27333 4.96156 9.615 4.90323C9.95666 4.85323 10.2733 5.08656 10.3317 5.42823C10.6483 7.44489 12.2817 8.99489 14.315 9.19489C14.6567 9.22823 14.9067 9.53656 14.8733 9.87823C14.8317 10.1949 14.5567 10.4366 14.24 10.4366Z" fill="#685F74"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <p id="steam-my-status" class="small">No-online</p>
+                    </div>
+                    <div class="steam-friends">
+                        <h5>Friends</h5>
+                        <div class="steam-friend">
+                            <img class="friend-avatar" src="images/avatar.jpeg" alt="">
+                            <div class="friend-info">
+                                <p>AGROCOOLA</p>
+                                <p class="small">Online</p>
+                            </div>
+                        </div>
+                        <div class="steam-friend">
+                            <img class="friend-avatar" src="images/avatar.jpeg" alt="">
+                            <div class="friend-info">
+                                <p>AGROCOOLA</p>
+                                <p class="small">Online</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="git-content">
+                <div class="container">
+                    <h4>Git</h4>
+                    <div class="repository-list">
+                        <div class="repository">
+                            <div class="repository-info">
+                                <p>KPK-ElectronicLibrary</p>
+                                <p class="small">project for college</p>
+                            </div>
+                            <div class="repository-langs">
+                                <div class="repository-lang">
+                                    <p class="small">JS</p>
+                                </div>
+                                <div class="repository-lang">
+                                    <p class="small">TS</p>
+                                </div>
+                                <div class="repository-lang">
+                                    <p class="small">CSS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="repository">
+                            <div class="repository-info">
+                                <p>Mobile app</p>
+                                <p class="small">app for maps</p>
+                            </div>
+                            <div class="repository-langs">
+                                <div class="repository-lang">
+                                    <p class="small">JS</p>
+                                </div>
+                                <div class="repository-lang">
+                                    <p class="small">TS</p>
+                                </div>
+                                <div class="repository-lang">
+                                    <p class="small">CSS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="main-content">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <h3>Home</h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3>Anime</h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3>Games</h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3>Projects</h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3>Calculate for Steam</h3>
+                    </li>
+                    <li class="nav-item">
+                        <button class="dropdown-toggle" onclick="dropdownToggle(this)" data-toggle="" aria-expanded="false">
+                            <div class="ico-container flex">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.25 18.4375C4.35 18.4375 2.8125 16.9 2.8125 15C2.8125 13.1 4.35 11.5625 6.25 11.5625C8.15 11.5625 9.6875 13.1 9.6875 15C9.6875 16.9 8.15 18.4375 6.25 18.4375ZM6.25 13.4375C5.3875 13.4375 4.6875 14.1375 4.6875 15C4.6875 15.8625 5.3875 16.5625 6.25 16.5625C7.1125 16.5625 7.8125 15.8625 7.8125 15C7.8125 14.1375 7.1125 13.4375 6.25 13.4375Z" fill="#685F74"/>
+                                    <path d="M23.75 18.4375C21.85 18.4375 20.3125 16.9 20.3125 15C20.3125 13.1 21.85 11.5625 23.75 11.5625C25.65 11.5625 27.1875 13.1 27.1875 15C27.1875 16.9 25.65 18.4375 23.75 18.4375ZM23.75 13.4375C22.8875 13.4375 22.1875 14.1375 22.1875 15C22.1875 15.8625 22.8875 16.5625 23.75 16.5625C24.6125 16.5625 25.3125 15.8625 25.3125 15C25.3125 14.1375 24.6125 13.4375 23.75 13.4375Z" fill="#685F74"/>
+                                    <path d="M15 18.4375C13.1 18.4375 11.5625 16.9 11.5625 15C11.5625 13.1 13.1 11.5625 15 11.5625C16.9 11.5625 18.4375 13.1 18.4375 15C18.4375 16.9 16.9 18.4375 15 18.4375ZM15 13.4375C14.1375 13.4375 13.4375 14.1375 13.4375 15C13.4375 15.8625 14.1375 16.5625 15 16.5625C15.8625 16.5625 16.5625 15.8625 16.5625 15C16.5625 14.1375 15.8625 13.4375 15 13.4375Z" fill="#685F74"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <ul class="dropdown-menu nav-list column none">
+                            <li class="nav-item">
+                                <p>Learning</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Docs</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="anime-container column">
+                <!-- <div class="input-floating">
+                    <input id="animeSearch" type="text" class="input anime-search" placeholder="">
+                    <label for="animeSearch">Anime</label>
+                </div> -->
+                <div class="form-floating">
+                    <input class="form-control" placeholder="" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Anime</label>
+                  </div>
+                <div class="founded-title">
+                    <h4>All founded</h4>
+                    <div class="anime-sorts">
+                        <div class="anime-filter">
+                            <h5>Rating</h5>
+                            <div class="ico-container flex">
+                                <svg class="ui-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 14C9.41668 14 8.83335 13.775 8.39168 13.3334L2.95835 7.90003C2.71668 7.65837 2.71668 7.25837 2.95835 7.0167C3.20002 6.77503 3.60002 6.77503 3.84168 7.0167L9.27502 12.45C9.67502 12.85 10.325 12.85 10.725 12.45L16.1583 7.0167C16.4 6.77503 16.8 6.77503 17.0417 7.0167C17.2833 7.25837 17.2833 7.65837 17.0417 7.90003L11.6084 13.3334C11.1667 13.775 10.5833 14 10 14Z" fill="#685F74"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="anime-filter">
+                            <h5>Date</h5>
+                            <div class="ico-container flex">
+                                <svg class="ui-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 14C9.41668 14 8.83335 13.775 8.39168 13.3334L2.95835 7.90003C2.71668 7.65837 2.71668 7.25837 2.95835 7.0167C3.20002 6.77503 3.60002 6.77503 3.84168 7.0167L9.27502 12.45C9.67502 12.85 10.325 12.85 10.725 12.45L16.1583 7.0167C16.4 6.77503 16.8 6.77503 17.0417 7.0167C17.2833 7.25837 17.2833 7.65837 17.0417 7.90003L11.6084 13.3334C11.1667 13.775 10.5833 14 10 14Z" fill="#685F74"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anime-list">
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="anime-card-title">
+                            <img class="anime-card-cover" src="https://media.kitsu.io/anime/poster_images/3936/large.jpg" alt="">
+                            <!-- <p class="anime-rating">86</p> -->
+                            <div class="anime-card-info">
+                                <div class="anime-name">
+                                    <h5>My hero academy</h5>
+                                    <p class="anime-info">Created: 22.02.2017</p>
+                                </div>
+                                <p class="description">Box shadow and drop shadow tools. Even beginners can select from a list of 
+                                    samples (swatches) and customize them to design stylish shadows efficiently. </p>
+                                </div>
+                            </div>
+                        <div class="border-line"></div>
+                        <div class="anime-aside">
+                            <p class="anime-info">Finished</p>
+                            <p class="anime-info">Series: 12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="fixed right-aside">
+            <div class="weather-content">
+                <div class="container">
+                    <div class="weather-title">
+                        <h4>Kamyshin</h4>
+                        <div class="ico-container">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.58335 18.6251C4.87502 18.6251 1.04169 14.7917 1.04169 10.0834C1.04169 5.37508 4.87502 1.54175 9.58335 1.54175C14.2917 1.54175 18.125 5.37508 18.125 10.0834C18.125 14.7917 14.2917 18.6251 9.58335 18.6251ZM9.58335 2.79175C5.55835 2.79175 2.29169 6.06675 2.29169 10.0834C2.29169 14.1001 5.55835 17.3751 9.58335 17.3751C13.6084 17.3751 16.875 14.1001 16.875 10.0834C16.875 6.06675 13.6084 2.79175 9.58335 2.79175Z" fill="#685F74"/>
+                                <path d="M18.3333 19.4583C18.175 19.4583 18.0167 19.4 17.8917 19.275L16.225 17.6083C15.9833 17.3666 15.9833 16.9666 16.225 16.725C16.4667 16.4833 16.8667 16.4833 17.1083 16.725L18.775 18.3916C19.0167 18.6333 19.0167 19.0333 18.775 19.275C18.65 19.4 18.4917 19.4583 18.3333 19.4583Z" fill="#685F74"/>
+                            </svg>                                
+                        </div>
+                    </div>
+                    <div class="weather-info">
+                        <img src="images/sun.svg" alt="">
+                        <div class="weather-state">
+                            <p class="small">Sun</p>
+                            <div class="weather-temp">
+                                <h3>+11</h3>
+                                <p class="small">
+                                    °C
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="favorites-teams-content">
+                <div class="container">
+                    <div class="teams-title">
+                        <h4>Favorites teams</h4>
+                    </div>
+                    <div class="team-info">
+                        <h5>Real Madrid</h5>
+                        <div class="team-match">
+                            <img src="images/ball.svg" alt="">
+                            <p class="small">Real Madrid</p>
+                            <p class="small">-</p>
+                            <p class="small">Levante</p>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h5>Tottenham Hotspur</h5>
+                        <div class="team-match">
+                            <img src="images/ball.svg" alt="">
+                            <p class="small">Arsenal</p>
+                            <p class="small">-</p>
+                            <p class="small">Tottenham</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
